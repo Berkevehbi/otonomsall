@@ -1,0 +1,3 @@
+uint8 gear_status_from_motor
+uint16 plustripdistance
+uint16 vehiclerpm

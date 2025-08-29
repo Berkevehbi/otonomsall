@@ -1,0 +1,8 @@
+numpy
+scipy
+opencv-python
+torch
+torchvision
+inputs
+matplotlib
+# örnek: başka ihtiyaç varsa buraya ekle

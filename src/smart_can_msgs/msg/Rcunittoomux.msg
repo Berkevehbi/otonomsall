@@ -1,0 +1,13 @@
+int8 autonomous_emergency
+uint8 rc_windowresintance
+uint8 rc_interiorlight
+uint8 rc_reverselight
+uint8 rc_drl
+uint8 rc_brakelight
+int8 autonomous_door_open
+int8 autonomous_door_close
+uint8 rc_signalstatus
+uint8 rc_lowbeam
+uint8 rc_highbeam
+uint8 rc_selectiongear
+uint8 rc_ignition

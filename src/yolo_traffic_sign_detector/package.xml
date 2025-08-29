@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>yolo_traffic_sign_detector</name>
+  <version>0.0.1</version>
+  <description>YOLOv8 tabanlı trafik levhası ve işaret tanıma ROS 2 paketi</description>
+
+  <maintainer email="senin@emailin.com">Senin Adın</maintainer>
+  <license>MIT</license>
+
+  <!-- Build tools -->
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- Build-time dependencies -->
+  <build_depend>rclpy</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>cv_bridge</build_depend>
+
+  <!-- Run-time dependencies -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+
+  <!-- Optional: Test -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

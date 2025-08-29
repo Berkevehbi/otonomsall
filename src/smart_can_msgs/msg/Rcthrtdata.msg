@@ -1,0 +1,2 @@
+uint8 rc_thrt_pedal_position
+uint8 rc_thrt_pedal_press

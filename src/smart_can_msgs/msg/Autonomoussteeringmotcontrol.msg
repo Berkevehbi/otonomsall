@@ -1,0 +1,2 @@
+uint8 autonomous_steeringmot_en
+uint8 autonomous_steeringmot_pwm

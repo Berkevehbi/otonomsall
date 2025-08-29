@@ -1,0 +1,3 @@
+uint16 rc_brakepedal_speed
+uint16 rc_brakepedal_acc
+uint8 rc_brakepedal_pos

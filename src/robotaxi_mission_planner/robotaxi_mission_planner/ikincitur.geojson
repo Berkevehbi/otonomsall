@@ -1,0 +1,48 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "datum",
+          "description": "Referans Noktası",
+          "local_x": 0.0,
+          "local_y": 0.0,
+          "heading": 230.0
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [29.50896659, 40.7903314]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "start",
+          "description": "Araç başlangıç konumu",
+          "local_x": 0.0,
+          "local_y": 0.0,
+          "heading": 230.0
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [29.50896659, 40.7903314]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "park_giris",
+          "description": "Araç park giriş bölgesi noktası",
+          "local_x": 19.519237,
+          "local_y": -18.66474,
+          "heading": 50.0
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [29.5091914, 40.79015839]
+        }
+      }
+    ]
+  }
+  

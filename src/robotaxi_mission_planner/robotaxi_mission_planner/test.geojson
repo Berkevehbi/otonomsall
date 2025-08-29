@@ -1,0 +1,90 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "datum",
+          "description": "Referans Noktası",
+          "local_x": 0.0,
+          "local_y": 0.0,
+          "heading": 0.0
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [29.508361, 40.789431]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "start",
+          "description": "Araç başlangıç konumu",
+          "local_x": 95.15,
+          "local_y": 48.88,
+          "heading": 229.17
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [29.508934, 40.790290]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "gorev_1",
+          "description": "İlk görev noktası",
+          "local_x": 31.93,
+          "local_y": 23.52,
+          "heading": 139.17
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [29.508638, 40.789720]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "gorev_2",
+          "description": "İkinci görev noktası",
+          "local_x": 26.33,
+          "local_y": 65.59,
+          "heading": 49.17
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [29.509136, 40.789671]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "gorev_3",
+          "description": "Üçüncü görev noktası",
+          "local_x": 72.24,
+          "local_y": 52.95,
+          "heading": 49.17
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [29.508984, 40.790084]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "park_giris",
+          "description": "Araç park giriş bölgesi noktası",
+          "local_x": 79.295,
+          "local_y": 73.225,
+          "heading": 49.17
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [29.5092235, 40.7901485]
+        }
+      }
+    ]
+  }
+  

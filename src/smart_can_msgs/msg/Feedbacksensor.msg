@@ -1,0 +1,8 @@
+uint8 steeringanglesensorhamdata
+uint8 brakepedalsensorhamdata
+uint8 handbrakesensor
+uint8 handbrakesensor_hamdata
+uint8 indir
+uint8 kaldir
+uint8 butonindir
+uint8 butonkaldir

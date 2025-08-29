@@ -1,0 +1,2 @@
+int8 feedbacksteeringangle
+int8 feedbackbrakepedalangle

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lane Planner</title>
+</head>
+<body>
+    <h1>Lane Offset Viewer</h1>
+    <p>Offset: <span id="offset">Loading...</span> px</p>
+    <img src="/video" width="640" height="480" />
+    <script>
+        function updateOffset() {
+            fetch('/offset')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("offset").innerText = data.offset.toFixed(2);
+                });
+        }
+        setInterval(updateOffset, 1000);
+    </script>
+</body>
+</html>

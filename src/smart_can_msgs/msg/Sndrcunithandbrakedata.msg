@@ -1,0 +1,4 @@
+uint16 rc_hb_pwmvalue
+uint8 rc_handbrake_press
+uint8 rc_handbrake_free
+uint8 rc_handbrakedata

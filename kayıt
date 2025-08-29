@@ -1,0 +1,21 @@
+xhost +local:docker
+
+ros2 launch robotaxi_bringup autonomous_drive.launch.py
+
+sudo docker build -t robotaksi_ws:latest .
+
+docker run -it --rm   --name ros2-container   --env DISPLAY=$DISPLAY   --volume /tmp/.X11-unix:/tmp/.X11-unix   robotaksi_ws:latest bash
+
+docker run -it --rm   --name ros2-container   --env DISPLAY=$DISPLAY   --volume /tmp/.X11-unix:/tmp/.X11-unix --gpus all --network bridge  robotaksi_ws:latest bash
+
+docker run -it --rm   --name ros2-container   --env DISPLAY=$DISPLAY   --volume /tmp/.X11-unix:/tmp/.X11-unix --gpus all --network bridge --privileged robotaksi_ws:latest bash
+
+
+
+net kurma: "docker network create --driver=bridge --opt com.docker.network.bridge.enable_icc=true --opt com.docker.network.bridge.enable_ip_masquerade=true mynet
+
+docker run --network mynet
+"
+
+
+ros2 pkg create --build-type ament_python my_py_pkg

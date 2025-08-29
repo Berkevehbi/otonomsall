@@ -1,0 +1,12 @@
+parking_controller_node:
+  ros__parameters:
+    min_park_width: 2.5
+    park_depth: 5.0
+    lidar_min_angle: -1.57
+    lidar_max_angle: 1.57
+    kp_steering: 0.5
+    alignment_tolerance: 0.1
+    safety_distance: 0.5
+path_planner_node:
+  ros__parameters:
+    turning_radius: 4.5

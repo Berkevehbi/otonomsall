@@ -1,0 +1,3 @@
+uint8 autonomous_hb_motor_pwm
+uint8 autonomous_hb_motstate
+uint8 autonomous_hb_moten

@@ -1,0 +1,32 @@
+train: C:/Users/kaanb/Desktop/ROBOTAKSİ/split_dataset/train/images
+val: C:/Users/kaanb/Desktop/ROBOTAKSİ/split_dataset/val/images
+test: C:/Users/kaanb/Desktop/ROBOTAKSİ/split_dataset/test/images
+
+nc: 26
+names:
+  - dur
+  - durak
+  - sagadonulmez
+  - soladonulmez
+  - girisyok
+  - parkyasak
+  - park
+  - trafikisigi
+  - ileridensag
+  - ileridensol
+  - sagveileri
+  - solveileri
+  - "20"
+  - "30"
+  - sag
+  - sol
+  - dönelKavşak
+  - yayaGeçidi
+  - ileri
+  - engelliPark
+  - tunel
+  - sagdanGidiniz
+  - soldanGidiniz
+  - seritDüzenlemeSol
+  - seritDüzenlemesag
+  - ikiYonlu
