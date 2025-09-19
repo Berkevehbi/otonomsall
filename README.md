@@ -99,15 +99,3 @@ ros2 run robotaxi_perception test_video_publisher
 * Bir video dosyasını, sanki canlı kamera gibi belirli bir topic’e yayınlar.
 * Gerçek kamera olmadan perception ve downstream node’ları test etmek için kullanılır.
 
----
-
-**Her terminalde ROS 2 ortam değişkenlerini otomatik source edilir; yine de gerekirse elle source etmeyi unutma!**
-
----
-
-```
-
-> Bu bölümü README’nin kullanım senaryoları başlığına **direkt ekleyebilirsin**.  
-Başka eklemek istediğin bir özel komut, test, ya da “run” varsa hemen yaz, ekleyeyim!  
-Her zaman yarışmacı standardında hazırız 💪
-```
